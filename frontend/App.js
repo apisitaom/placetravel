@@ -4,6 +4,7 @@ import Homepage from './src/components/homepage/Homepage'
 import Comment from './src/components/comment/Comment'
 import Travel from './src/components/travel/Travel'
 import User from './src/components/user/User'
+import Login from './src/components/login/Login'
 export default class App extends Component {
   render() {
     return (
@@ -13,6 +14,7 @@ export default class App extends Component {
             <Route exact path="/comment" component={Comment} />
             <Route exact path="/travel" component={Travel} />
             <Route exact path="/user" component={User} />
+            <Route exact path="/login" component={Login} />
           </Switch>
       </NativeRouter>
     );
