@@ -1,11 +1,19 @@
 import React, { Component } from 'react'
-import { Text, View } from 'react-native'
+import { Container, Content, Text, Button } from 'native-base';
+import Footers from '../../Footer/Footers'
 export default class Homepage extends Component {
     render() {
         return (
-            <View>
-                <Text> Homepage </Text>
-            </View>
+          <Container>
+            <Content>
+              <Button
+              onPress={()=> console.log('profile')}
+              >
+                <Text>Profile</Text>
+              </Button>
+            </Content>
+            <Footers />
+        </Container>
         )
     }
 }
