@@ -8,7 +8,7 @@ export default class Comment extends Component {
               <List>
                 <ListItem avatar>
                   <Left>
-                    <Thumbnail source={{ uri: 'Image URL' }} />
+                    <Thumbnail source={require('../../assets/img/hansome.jpg')} />
                   </Left>
                   <Body>
                     <Text>Kumar Pratik</Text>

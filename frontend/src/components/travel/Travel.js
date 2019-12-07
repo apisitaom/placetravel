@@ -1,18 +1,27 @@
 import React, { Component } from 'react'
 import { Image } from 'react-native';
-import { Container, Header, View, DeckSwiper, Card, CardItem, Thumbnail, Text, Left, Body, Icon } from 'native-base';
+import { Container, View, DeckSwiper, Card, CardItem, Thumbnail, Text, Left, Body, Icon } from 'native-base';
 const cards = [
   {
     text: 'Card One',
     name: 'One',
-    image: require('./img/swiper-1.png'),
+    image: require('../../assets/img/hansome.jpg'),
+  },
+  {
+    text: 'Card One',
+    name: 'One',
+    image: require('../../assets/img/hansome.jpg'),
+  },
+  {
+    text: 'Card One',
+    name: 'One',
+    image: require('../../assets/img/hansome.jpg'),
   },
 ];
 export default class Travel extends Component {
     render() {
         return (
 <Container>
-        {/* <Header /> */}
         <View>
           <DeckSwiper
             dataSource={cards}
