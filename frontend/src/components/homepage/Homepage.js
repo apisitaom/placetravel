@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Container, Content, Text, Button } from 'native-base';
-import Footers from '../../Footer/Footers'
+import Footers from '../footers/Footers'
 export default class Homepage extends Component {
     render() {
         return (
