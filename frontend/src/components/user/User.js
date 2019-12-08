@@ -1,11 +1,14 @@
 import React, { Component } from 'react'
-import { Text, View } from 'react-native'
+import { Container, Content, Thumbnail } from 'native-base';
+
 export default class User extends Component {
     render() {
         return (
-            <View>
-                <Text> User </Text>
-            </View>
+<Container>
+        <Content>
+          <Thumbnail style={{}} large source={require('../../assets/img/hansome.jpg')} />
+        </Content>
+      </Container>
         )
     }
 }

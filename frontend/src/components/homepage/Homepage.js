@@ -14,16 +14,16 @@ export default class Homepage extends Component {
         return (
           <Container>
         <Tabs>
-          <Tab heading={ <TabHeading><Icon name="apps" /><Text>Camera</Text></TabHeading>}>
+          <Tab heading={ <TabHeading><Icon name="apps" /><Text>Travel</Text></TabHeading>}>
             <Travel />
           </Tab>
-          <Tab heading={ <TabHeading><Icon name="ios-search" /></TabHeading>}>
+          <Tab heading={ <TabHeading><Icon name="ios-search" /><Text>Search</Text></TabHeading>}>
             <Search />
           </Tab>
-          <Tab heading={ <TabHeading><Icon name="chatboxes" /></TabHeading>}>
+          <Tab heading={ <TabHeading><Icon name="chatboxes" /><Text>Comment</Text></TabHeading>}>
             <Comment />
           </Tab>
-          <Tab heading={ <TabHeading><Icon name="person" /></TabHeading>}>
+          <Tab heading={ <TabHeading><Icon name="person" /><Text>Profile</Text></TabHeading>}>
             <User />
           </Tab>
         </Tabs>

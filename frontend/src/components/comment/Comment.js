@@ -11,11 +11,11 @@ export default class Comment extends Component {
                     <Thumbnail source={require('../../assets/img/hansome.jpg')} />
                   </Left>
                   <Body>
-                    <Text>Kumar Pratik</Text>
-                    <Text note>Doing what you like will always keep you happy . .</Text>
+                    <Text>Aom Apisit</Text>
+                    <Text note>Full Stack Developer ... send message to you</Text>
                   </Body>
                   <Right>
-                    <Text note>3:43 pm</Text>
+                    <Text note>12:00</Text>
                   </Right>
                 </ListItem>
               </List>
